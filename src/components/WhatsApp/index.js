@@ -6,7 +6,7 @@ function WhatsAppButton({ position }) {
 		<div>
 			{" "}
 			<a
-				href="https://wa.me/5493885805741?text=Hola%20Me interesa%20estudiar/%20trabajar%20en%20pierre"
+				href="https://wa.me/5493885070493?text=Hola%20Me interesa%20estudiar/%20trabajar%20en%20pierre"
 				target="_blank"
 			>
 				<StyledIcon style={{ position }} title="chat in whatsapp"></StyledIcon>
