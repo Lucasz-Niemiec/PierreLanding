@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import useInterval from "../../Hooks/useInterval";
 import { Image } from "./heroImage.styled";
 import Bar from "../../logos/Bartender.jpg";
