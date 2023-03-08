@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { change, hover } from "../../generalStyes/themePropvider";
-import Bar from "../../logos/Bartender.jpg";
+
 import triangles2 from "../../logos/background2.png";
 
 export const Wrapper = styled.div`

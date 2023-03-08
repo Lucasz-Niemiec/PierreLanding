@@ -1,7 +1,7 @@
 import React from "react";
 import List from "../ListComponent/index";
 
-import { Wrapper, Content, Ul, CourseContain, Image } from "./courses.styled";
+import { Wrapper, Content, CourseContain, Image } from "./courses.styled";
 import items from "../../coursesList.json";
 
 const Courses = React.forwardRef((props, ref) => {

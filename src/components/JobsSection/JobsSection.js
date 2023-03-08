@@ -1,7 +1,7 @@
 import React from "react";
 import items from "../../jobs.json";
 import JobOffer from "../JobOffer/JobOffer";
-import { Wrapper, Text, JobContainer } from "./JobsSection.Styled";
+import { Wrapper, JobContainer } from "./JobsSection.Styled";
 import GetInContact from "../getInContact";
 
 const JobsSection = () => {

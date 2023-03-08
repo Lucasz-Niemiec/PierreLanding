@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { NavContainer, Ul, Li, Logo, LogoContain, Iso } from "./NavBar.Styled";
+import { NavContainer, Ul, Li, Logo } from "./NavBar.Styled";
 import LogoPng from "../../logos/p1 blanco.png";
 
 const NavBar = () => {
