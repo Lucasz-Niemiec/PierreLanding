@@ -10,7 +10,7 @@ const GetInContact = () => {
 	return (
 		<Container>
 			<ContinerLinks>
-				<p>Envianos tus datos y CV</p>
+				<p>Postulate</p>
 				<Arrow />
 				<a href={wahtsappLink} rel="noreferrer" target="_blank">
 					<WhaIcon /> <span>WhatsApp</span>

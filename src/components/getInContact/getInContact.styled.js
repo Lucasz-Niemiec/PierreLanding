@@ -37,23 +37,27 @@ export const Container = styled.div`
 `;
 
 export const ContinerLinks = styled.div`
-	width: 75%;
+	width: fit-content;
 	align-self: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 10px;
+
+	font-size: 3em;
 	p {
 		font-size: 2em;
 		width: 90%;
 	}
-	@media screen and (max-width: 1000px) {
-		width: 100%;
-	}
-
 	a {
 		display: flex;
 		align-items: center;
+	}
+	@media screen and (max-width: 1000px) {
+		width: 100%;
+	}
+	a {
+		display: inline-block;
 	}
 	p {
 		font-size: 1em;
