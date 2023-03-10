@@ -5,7 +5,6 @@ import Map from "../../logos/map.png";
 import {
 	FaFacebookF,
 	FaInstagram,
-	FaTwitter,
 	FaPhoneAlt,
 	FaMailBulk,
 	FaSearchLocation,
@@ -119,9 +118,7 @@ export const IconFace = styled(FaFacebookF)`
 export const IconInsta = styled(FaInstagram)`
 	${Icons}
 `;
-export const IconTwitter = styled(FaTwitter)`
-	${Icons}
-`;
+
 export const IconPhone = styled(FaPhoneAlt)`
 	${Icons}
 `;

@@ -7,7 +7,6 @@ import {
 	IconsSocial,
 	IconFace,
 	IconInsta,
-	IconTwitter,
 	IconPhone,
 	IconMail,
 	IconLocation,
