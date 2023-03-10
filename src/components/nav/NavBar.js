@@ -9,10 +9,10 @@ const NavBar = () => {
 			<Logo src={LogoPng} />
 			<Ul>
 				<Li>
-					<Link to="/">inicio</Link>
+					<Link to="/">Inicio</Link>
 				</Li>
 				<Li>
-					<Link to="/jobs">Oferta Labora</Link>
+					<Link to="/jobs">Oferta Laboral</Link>
 				</Li>
 			</Ul>
 		</NavContainer>

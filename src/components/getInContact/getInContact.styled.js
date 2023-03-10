@@ -10,14 +10,14 @@ export const Container = styled.div`
 	height: 50%;
 	a {
 		color: ${({ theme }) => theme.primary};
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		font-weight: 700;
 		display: inline-block;
 		text-align: center;
 	}
 	p {
 		width: 100%;
-		text-align: left;
+
 		display: inline;
 	}
 	span {
@@ -41,6 +41,7 @@ export const ContinerLinks = styled.div`
 	justify-content: center;
 	align-items: center;
 	p {
+		font-size: 2em;
 		width: fit-content;
 	}
 	@media screen and (max-width: 1000px) {

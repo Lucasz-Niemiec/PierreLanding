@@ -16,6 +16,12 @@ export const Wrapper = styled.div`
 		color: ${({ theme }) => theme.primary};
 		font-size: 4em;
 	}
+	a {
+		color: ${({ theme }) => theme.primary};
+		font-size: 2em;
+		text-decoration: none;
+		color: ${({ theme }) => theme.secondary_1};
+	}
 	p {
 		color: ${({ theme }) => theme.secondary_1};
 		margin: 0;

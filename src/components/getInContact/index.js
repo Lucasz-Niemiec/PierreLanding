@@ -4,21 +4,17 @@ const GetInContact = () => {
 	return (
 		<Container>
 			<p>
-				¿Tienes un Proyecto/ Curso que te gustaría impulsar?
-				<a href="mailto:centroprofesionalpierre@gmail.com">
-					Queres ser parte del equipo?
-				</a>
-				Envíanos un correo con tu nombre, area de interes y adjuntando tu cv a
-				nuestro mail.
+				¿Tienes un Proyecto/ Curso que te gustaría impulsar? Envíanos un correo
+				con tu nombre, area de interes y adjuntando tu cv a nuestro mail.
 			</p>
 			<a href="mailto:centroprofesionalpierre@gmail.com">
 				centroprofesionalpierre@gmail.com
 			</a>
 
 			<ContinerLinks>
-				<p>o madanos un mensaje </p>
+				<p>Envianos tus datos y CV</p>
 				<a
-					href="https://wa.me/5493885070493?text=Hola%20Me interesa%20estudiar/%20trabajar%20en%20pierre"
+					href="https://wa.me/5493884778611?text=Hola%20me interesa%20estudiar/%20trabajar%20en%20pierre"
 					rel="noreferrer"
 					target="_blank"
 				>

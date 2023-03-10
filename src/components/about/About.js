@@ -15,12 +15,11 @@ const About = ({ scrollToCourses }) => {
 				<Text>
 					<h1>Formando Verdaderos PROFESIONALES</h1>
 					<p>
-						Nuestra misión es brindar las más actualizadas herramientas a todas
-						las personas que deseen superar sus habilidades en la industria de
-						la belleza.
+						Te impulsamos a insertarte y destacar en el mercado laboral mediante
+						nuestros cursos de Formación Profesional
 					</p>
 					<CallToAct onClick={scrollToCourses}>
-						chequea nuestors cursos
+						Conoce nuestros cursos
 					</CallToAct>
 				</Text>
 				<HeroImage />

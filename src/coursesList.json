@@ -1,7 +1,7 @@
 [
 	{
 		"key": 1,
-		"content": "Curso de experta integral en Cejas y Pestañas "
+		"content": "Curso de Experta integral en Cejas y Pestañas "
 	},
 	{
 		"key": 2,
@@ -41,7 +41,7 @@
 	},
 	{
 		"key": 11,
-		"content": "Perfeccionamiento en mixología (exclusivo para Bartenders)"
+		"content": "Perfeccionamiento en Mixología (exclusivo para Bartenders)"
 	},
 	{
 		"key": 12,
@@ -50,5 +50,29 @@
 	{
 		"key": 13,
 		"content": "Curso de Masoterapia integral"
+	},
+	{
+		"key": 14,
+		"content": "Curso de Diseño de Moda e Indumentaria / Confección"
+	},
+	{
+		"key": 15,
+		"content": "Curso de Reparación de Celulares "
+	},
+	{
+		"key": 16,
+		"content": "Curso de Serigrafia"
+	},
+	{
+		"key": 17,
+		"content": "Curso de Reparación de PC"
+	},
+	{
+		"key": 18,
+		"content": "Curso de Marketing Digital"
+	},
+	{
+		"key": 19,
+		"content": "Curso de Cosmetología"
 	}
 ]

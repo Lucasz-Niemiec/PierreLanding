@@ -7,12 +7,16 @@ import GetInContact from "../getInContact";
 const JobsSection = () => {
 	return (
 		<Wrapper>
-			<h1>Ofertas trabajo</h1>
+			<h1>Oferta laboral</h1>
+			<a href="mailto:centroprofesionalpierre@gmail.com">
+				¿Te gustaría formar parte de nuestro equipo de profesionales?
+			</a>
 			<p>
 				Bienvenido a nuestra sección de búsqueda de talentos en Centropierre.
 				Estamos buscando personas talentosas para unirse a nuestro equipo en
 				diferentes áreas, como enseñanza, asesoramiento, investigación y
-				administración. Valoramos la diversidad y la inclusión, y ofrecemos un
+				administración. Valoramos el compromiso y la proactividad, y ofrecemos
+				un un execelente ámbito laboral
 			</p>
 			<JobContainer>
 				{items &&
