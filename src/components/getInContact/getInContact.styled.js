@@ -47,7 +47,7 @@ export const ContinerLinks = styled.div`
 	font-size: 3em;
 	p {
 		font-size: 2em;
-		width: 90%;
+		width: fit-content;
 	}
 	a {
 		display: flex;
@@ -61,7 +61,6 @@ export const ContinerLinks = styled.div`
 	}
 	p {
 		font-size: 1em;
-		width: 90%;
 	}
 `;
 
@@ -80,5 +79,5 @@ export const Arrow = styled(BsFillArrowRightCircleFill)`
 	width: 90px;
 	height: 90px;
 	color: ${({ theme }) => theme.secondary_2};
-	padding-right: 10px;
+	padding: 20px;
 `;
