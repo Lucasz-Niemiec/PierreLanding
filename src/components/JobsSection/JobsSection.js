@@ -12,11 +12,11 @@ const JobsSection = () => {
 				¿Te gustaría formar parte de nuestro equipo de profesionales?
 			</a>
 			<p>
-				Bienvenido a nuestra sección de búsqueda de talentos en Centropierre.
-				Estamos buscando personas talentosas para unirse a nuestro equipo en
-				diferentes áreas, como enseñanza, asesoramiento, investigación y
-				administración. Valoramos el compromiso y la proactividad, y ofrecemos
-				un un execelente ámbito laboral
+				Bienvenido a nuestra sección de búsqueda de talentos en Centro
+				Profesional Pierre. En este momento estamos incorporando personas
+				talentosas y comprometidas para unirse a nuestro equipo en diferentes
+				áreas, como enseñanza, asesoramiento, ordenanzas, investigación y
+				administración. Ofrecemos un excelente ámbito laboral
 			</p>
 			<JobContainer>
 				{items &&
