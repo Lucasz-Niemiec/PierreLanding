@@ -55,8 +55,6 @@ const SectionConatct = () => {
 				<a href="https://www.instagram.com/centropierre/" target="blank">
 					<IconInsta />
 				</a>
-
-				<IconTwitter />
 			</IconsSocial>
 			<ImageContainer>
 				<Image />

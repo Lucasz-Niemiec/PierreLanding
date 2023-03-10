@@ -137,6 +137,11 @@ export const IconAdress = styled(FaBuilding)`
 
 export const ImageContainer = styled.div`
 	display: flex;
+	@media screen and (max-width: 600px) {
+		width: 90%;
+		align-items: center;
+		justify-content: center;
+	}
 `;
 
 export const ImageMap = styled.div`

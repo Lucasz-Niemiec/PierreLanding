@@ -62,6 +62,11 @@ export const ContinerLinks = styled.div`
 	p {
 		font-size: 1em;
 	}
+	@media screen and (max-width: 1000px) {
+		p {
+			font-size: 0.6em;
+		}
+	}
 `;
 
 export const WhaIcon = styled(BsWhatsapp)`
