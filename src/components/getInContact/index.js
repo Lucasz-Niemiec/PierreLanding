@@ -1,15 +1,18 @@
 import React from "react";
-import { Container, WhaIcon, ContinerLinks } from "./getInContact.styled";
+import { wahtsappLink } from "../WhatsApp";
+import {
+	Container,
+	WhaIcon,
+	ContinerLinks,
+	Arrow,
+} from "./getInContact.styled";
 const GetInContact = () => {
 	return (
 		<Container>
 			<ContinerLinks>
 				<p>Envianos tus datos y CV</p>
-				<a
-					href="https://wa.me/5493884778611?text=Hola%20Te damos la bienvenida a Centro Profesional Pierre _Nos alegra que quieras sumarte a nuestro Equipo de Profesionales_ *A continuación Adjúntanos tu C.V. y lo enviaremos al área correspondiente!*%20"
-					rel="noreferrer"
-					target="_blank"
-				>
+				<Arrow />
+				<a href={wahtsappLink} rel="noreferrer" target="_blank">
 					<WhaIcon /> <span>WhatsApp</span>
 				</a>
 			</ContinerLinks>

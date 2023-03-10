@@ -64,28 +64,14 @@ export const buttons = css`
 		border-color: ${({ theme }) => theme.prymary};
 	}
 `;
-export const fade = keyframes`
+export const pulsating = keyframes`
+ 0% {
+    scale:1 ;
+  }
+  100% {
+   scale:1.2;
+  }  
  
-    
- 
-`;
-export const slideDown = keyframes`
- 
-    0% {
-      top: 5%;
-      left: -2rem;
-      opacity: 0; padding: 10px;
-     
-    }
-    100% {
-      left: -2rem;
-      top: 140%;
-      width: 100%;
-      height: 15rem;
-      padding: 10px;
-      z-index:2;
-    }
-  
 `;
 
 const Theme = ({ children }) => (

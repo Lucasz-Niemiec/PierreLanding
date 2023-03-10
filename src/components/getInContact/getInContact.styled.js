@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import { BsWhatsapp } from "react-icons/bs";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+import { pulsating } from "../../generalStyes/themePropvider";
 
 export const Container = styled.div`
 	align-self: center;
@@ -35,11 +37,12 @@ export const Container = styled.div`
 `;
 
 export const ContinerLinks = styled.div`
-	width: 65%;
+	width: 75%;
 	align-self: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
 	p {
 		font-size: 2em;
 		width: 90%;
@@ -52,6 +55,10 @@ export const ContinerLinks = styled.div`
 		display: flex;
 		align-items: center;
 	}
+	p {
+		font-size: 1em;
+		width: 90%;
+	}
 `;
 
 export const WhaIcon = styled(BsWhatsapp)`
@@ -61,4 +68,13 @@ export const WhaIcon = styled(BsWhatsapp)`
 	font-size: 2rem;
 	font-weight: 700;
 	padding: 10px;
+	animation: ${pulsating};
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+`;
+export const Arrow = styled(BsFillArrowRightCircleFill)`
+	width: 90px;
+	height: 90px;
+	color: ${({ theme }) => theme.secondary_2};
+	padding-right: 10px;
 `;
