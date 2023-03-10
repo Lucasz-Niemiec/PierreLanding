@@ -35,17 +35,22 @@ export const Container = styled.div`
 `;
 
 export const ContinerLinks = styled.div`
-	width: 50%;
+	width: 65%;
 	align-self: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	p {
 		font-size: 2em;
-		width: fit-content;
+		width: 90%;
 	}
 	@media screen and (max-width: 1000px) {
 		width: 100%;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
 	}
 `;
 
