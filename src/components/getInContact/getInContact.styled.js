@@ -64,7 +64,8 @@ export const ContinerLinks = styled.div`
 	}
 	@media screen and (max-width: 1000px) {
 		p {
-			font-size: 0.6em;
+			font-size: 0.4em;
+			padding: 0;
 		}
 	}
 `;

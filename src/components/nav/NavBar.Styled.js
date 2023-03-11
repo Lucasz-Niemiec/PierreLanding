@@ -20,8 +20,8 @@ export const Ul = styled.ul`
 
 	margin-right: 5%;
 	margin-left: 30px;
-	@media screen and (max-width: 400px) {
-		margin: 0%;
+	@media screen and (max-width: 1000px) {
+		margin-right: 0%;
 	}
 `;
 export const Li = styled.li`
