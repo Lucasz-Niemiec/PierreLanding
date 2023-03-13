@@ -12,9 +12,12 @@ const GetInContact = () => {
 			<ContinerLinks>
 				<p>Postulate</p>
 				<Arrow />
-				<a href={wahtsappLink} rel="noreferrer" target="_blank">
-					<WhaIcon /> <span>WhatsApp</span>
-				</a>
+				<div>
+					<a href={wahtsappLink} rel="noreferrer" target="_blank">
+						<WhaIcon />
+					</a>
+					<span>WhatsApp</span>
+				</div>
 			</ContinerLinks>
 			<p>
 				¿Tienes un Proyecto/ Curso que te gustaría impulsar? Envíanos un correo

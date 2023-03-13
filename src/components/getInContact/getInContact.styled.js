@@ -22,16 +22,15 @@ export const Container = styled.div`
 
 		display: inline;
 	}
-	span {
-		display: inline;
-		color: ${({ theme }) => theme.primary};
-		font-weight: 700;
-	}
+
 	@media screen and (max-width: 1000px) {
 		width: 100%;
 		a {
 			font-size: 1.2rem;
 			font-weight: 700;
+		}
+		span {
+			font-size: 1rem;
 		}
 	}
 `;
@@ -46,26 +45,31 @@ export const ContinerLinks = styled.div`
 
 	font-size: 3em;
 	p {
-		font-size: 2em;
+		font-size: 1em;
 		width: fit-content;
 	}
-	a {
+	div {
 		display: flex;
 		align-items: center;
+		flex-direction: row;
+	}
+
+	span {
+		display: inline;
+		color: ${({ theme }) => theme.primary};
+		font-weight: 700;
+		font-size: 1.5rem;
 	}
 	@media screen and (max-width: 1000px) {
 		width: 100%;
-	}
-	a {
-		display: inline-block;
-	}
-	p {
-		font-size: 1em;
-	}
-	@media screen and (max-width: 1000px) {
+
 		p {
 			font-size: 0.4em;
 			padding: 0;
+		}
+		div {
+			flex-direction: column;
+			align-items: center;
 		}
 	}
 `;
