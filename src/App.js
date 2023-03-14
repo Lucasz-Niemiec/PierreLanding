@@ -1,6 +1,6 @@
-import NavBar from "./components/nav/NavBar";
-import SectionConatct from "./components/SectionContact/SectionConatct";
-import JobsSection from "./components/JobsSection/JobsSection";
+import NavBar from "./components/nav";
+import SectionConatct from "./components/SectionContact/";
+import JobsSection from "./components/JobsSection";
 import WhatsAppButton from "./components/WhatsApp";
 import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";

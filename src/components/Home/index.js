@@ -1,6 +1,6 @@
 import React from "react";
-import About from "../about/About";
-import Courses from "../courses section/Courses";
+import About from "../about";
+import Courses from "../courses section";
 import { useRef } from "react";
 const Home = () => {
 	const coursesRef = useRef(null);

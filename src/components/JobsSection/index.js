@@ -1,6 +1,6 @@
 import React from "react";
 import items from "../../jobs.json";
-import JobOffer from "../JobOffer/JobOffer";
+import JobOffer from "../JobOffer";
 import { Wrapper, JobContainer } from "./JobsSection.Styled";
 import GetInContact from "../getInContact";
 
