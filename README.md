@@ -56,3 +56,4 @@ El sitio estará disponible en http://localhost:3000/
 Despliegue del Proyecto
 
 Este proyecto se ha desplegado en Netlify y está disponible en el siguiente enlace: PLACEHOLDER PARA EL LINK DE NETLIFY.
+https://papaya-haupia-acdd3d.netlify.app/
